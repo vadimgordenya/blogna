@@ -1,0 +1,86 @@
+.header {
+	width: 100%;
+}
+.container {
+	width: 100%;
+	margin: 0 auto;	
+}
+.header__top {
+	width: 100%;
+}
+.header__logo {
+	width: 100%;
+	padding: 65px 0 15px 0;
+}
+.logo {
+	text-align: center;
+	text-transform: uppercase;
+	display: block;
+}
+.header__text {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.header__bottom {
+	width: 100%;
+}
+
+.header__social {
+	display: inline-block;
+	width: 20%;	
+}
+.social__list {
+	padding-left: 70px;
+	padding-bottom: 50px;
+	width: 100%;
+}
+.list__item {
+	display: inline-block;
+	padding-left: 7px;
+}
+.nav__menu {
+	display: none;
+}
+
+.header_menu {
+	display: inline-block;
+	width: 59%;
+}
+.header__search {
+	display: inline-block;
+	width: 20%;
+}
+.search {
+	cursor: pointer;
+	padding-left: 70px;
+}
+.search:hover {
+	color: #bd081c;
+}
+
+.link__wrapp {
+	width: 25%;
+	border-right: 2px solid #3b2121;
+}
+.header__menu-list {
+	text-align: center;
+}
+.header__menu-item {
+	display: inline-block;
+	text-transform: uppercase;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.menu__item-linked {
+	color: black;
+	padding:15px;
+}
+.header__menu-item:hover {
+	background: red;
+	border-radius: 8px;
+}
+.birds:hover {
+	color: #1da1f2;
+}

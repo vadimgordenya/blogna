@@ -1,0 +1,569 @@
+/* Large desktop */
+@media (min-width: 1098px) and (max-width: 1347px) { 
+	.insta__first-column,
+	.insta__last-column {
+		display: inline-block;
+		width: 49.8%;
+		vertical-align: top;
+	}
+	.insta__one-column,
+	.insta__two-column {
+		display: inline-block;
+	}
+	.insta__one-column {
+    	width: 32.6%;
+	}
+	.insta__two-column {
+	    width: 66%;
+	}
+	.insta__three-column,
+	.insta__four-column  {
+		display: inline-block;
+	}
+
+
+	.insta__three-column {
+		width: 66.1%;
+	}
+	.insta__four-column  {
+		width: 32.9%;
+	}
+
+	.INSTA1,
+	.INSTA3 {
+		display: inline-block;
+		width: 100%;
+	}
+	.wrapp__insta {
+		width: 100%;
+	}
+	.INSTA4 {
+		display: block;
+		width: 100%:
+	}
+	.INSTA6,
+	.INSTA7{
+		display: inline-block;
+	    width: 49.4%;
+	    vertical-align: top;
+	}
+	.INSTA5,
+	.INSTA8{
+		display: block;
+		width: 100%;
+	}
+	.INSTA5 {
+		width: 100%;
+	}
+	.slider__text {
+		width: 100%;
+		font-size: 2.563em;
+		text-align: center;
+		left: -12.5%;
+	}
+	.footer__copyright,
+	.footer__menu {
+		height: auto;
+		display: block;
+		width: 100%;
+	}
+	.menu {
+		padding: 0;
+		margin: 0;
+		font-size: 0.89em;
+		width: 100%;
+		text-align: center;
+	}
+	.copyright__top,
+	.copyright__bottom {
+		width: 100%;
+		text-align: center;
+		padding: 20px;
+		margin: 0;
+	}
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1097px) { 
+	.header__bottom {
+  		width: 100%;
+  	}
+  	.header__social {
+		display: inline-block;
+		text-align: center;
+		width: 100%;
+	}
+	.header__search {
+		width: 100%;
+		display: block;
+		margin: 0 25%;
+		margin-top: 50px;
+		margin-bottom: 15px;
+	}
+	.link__wrapp {
+		border: none;
+		width: 65%;
+		margin: 0 17%;
+	}
+  	.social__list {
+  		width: 100%;
+  		padding-left: 0;
+  	}
+	.header_menu {
+		width: 100%;
+		border: 1px dashed grey;	
+	}
+	.header__menu-item {
+		width: 100%;
+		display: block;
+		padding: 10px 10px;
+		border: 0;
+		cursor: pointer;
+	}
+	nav ul {
+		display: none;
+	}
+	.header__menu-item:hover {
+		background-color: red;
+		border-radius: 0;
+	}
+	.header__logo {
+		font-size: 3.125em;
+	}
+	
+	.header__text {
+		font-size: 1.063em;
+	}
+	.menu-trigger { 
+		display: block;
+		width: 5%;
+		margin: 0 90% 0 5%;
+		font-size: 1.875em;
+		cursor: pointer;
+	}
+	
+	.content__sidebar {
+		width: 100%;
+		display: inline-block;
+	}
+	.box__sidebar {
+		width: 49.5%;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.left__box-one {
+		display: inline-block;
+		width: 50%;
+	}
+	.content__left,
+	.contetn__sidebar {
+		display: block;
+		width: 100%;
+	}
+	.content__sidebar {
+		margin-top: 50px;
+	}
+	.insta__last-column {
+		display: inline-block;
+		width: 100%;
+	}
+	
+	.insta__first-column,
+	.insta__last-column {
+		width: 49.5%;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.INSTA1,
+	.INSTA3,
+	.INSTA6,
+	.INSTA7 {
+		display: inline-block;
+		width: 49.47%;
+		vertical-align: top;
+	}
+	.gorizontall__stick {
+		padding-bottom: 30px;
+	}
+ 	.insta__one-column  {
+		display: inline-block;
+		width: 100%;
+	}
+	.INSTA2 {
+		width: 100%;
+		vertical-align: top;
+		height: 407px;
+	}
+	.insta__one-column,
+	.insta__two-column {
+		width: 100%;
+		display: inline-block;
+	}
+	.insta__three-column {
+		width: 100%;
+	}
+	.insta__four-column {
+		width: 100%;
+	}
+	.INSTA5 {
+		height: 210px;
+	}
+	.INSTA8 {
+		height: 210px;
+	}
+	.INSTA4,
+	.INSTA6,
+	.INSTA7 {
+		vertical-align: top;
+	}
+	.INSTA5,
+	.INSTA8 {
+		width: 49.45%;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.INSTA4 {
+		width: 100%;
+		display: inline-block;
+		height: 197px
+	}
+	
+	.slider__text {
+		width: 100%;
+		font-size: 2.163em;
+		text-align: center;
+		left: -12.5%;
+	}
+	.footer__copyright,
+	.footer__menu {
+		height: auto;
+		display: block;
+		width: 100%;
+	}
+	.menu {
+		padding: 0;
+		margin: 0;
+		font-size: 0.89em;
+		width: 100%;
+		text-align: center;
+	}
+	.copyright__top,
+	.copyright__bottom {
+		width: 100%;
+		text-align: center;
+		padding: 20px;
+		margin: 0;
+	}
+	.wrapp__instag,
+	.wrapp__categories {
+		display: inline-block;
+		width: 49.3%;
+		vertical-align: top;
+	}
+	.wrapp__categories {
+		margin-top: -10px;
+	}
+	.reload {
+		width: 30%;
+	}
+	
+	
+
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (min-width: 481px) and (max-width: 767px) { 
+	.header__bottom {
+  		width: 100%;
+  	}
+  	.header__social {
+		display: inline-block;
+		text-align: center;
+		width: 100%;
+	}
+	.header__search {
+		width: 100%;
+		display: block;
+		margin: 0 25%;
+		margin-top: 50px;
+		margin-bottom: 15px;
+	}
+	.link__wrapp {
+		border: none;
+		width: 80%;
+		margin: 0 10%;
+	}
+  	.social__list {
+  		width: 100%;
+  		padding-left: 0;
+  	}
+	.header_menu {
+		width: 100%;
+		border: 1px dashed grey;	
+	}
+	.header__menu-item {
+		width: 100%;
+		display: block;
+		padding: 10px 10px;
+		border: 0;
+		cursor: pointer;
+	}
+	nav ul {
+		display: none;
+	}
+	.header__menu-item:hover {
+		background-color: red;
+		border-radius: 0;
+	}
+	.header__logo {
+		font-size: 3.125em;
+	}
+	
+	.header__text {
+		font-size: 1.063em;
+	}
+	.menu-trigger { 
+		display: block;
+		width: 5%;
+		margin: 0 90% 0 5%;
+		font-size: 1.875em;
+		cursor: pointer;
+	}
+	.content__left,
+	.content__sidebar,
+	.left__box-one,
+	.left__box-two {
+		display: block;
+		width: 100%;
+	}
+	.content__sidebar {
+		margin-top: 50px;
+	}
+	.insta__last-column {
+		display: inline-block;
+		width: 100%;
+	}
+	
+	.insta__first-column {
+		width: 100%;
+	}
+	.INSTA1,
+	.INSTA3,
+	.INSTA6,
+	.INSTA7 {
+		display: inline-block;
+		width: 49.5%;
+		vertical-align: top;
+	}
+	.gorizontall__stick {
+		padding-bottom: 30px;
+	}
+ 	.insta__one-column  {
+		display: inline-block;
+		width: 100%;
+	}
+	.INSTA2 {
+		width: 100%;
+		vertical-align: top;
+	}
+	.insta__two-column  {
+		display: inline-block;
+		width: 100%;
+	}
+	.insta__three-column {
+		width: 100%;
+	}
+	.insta__four-column {
+		width: 100%;
+	}
+	.INSTA5,
+	.INSTA8 {
+		width: 49.5%;
+		display: inline-block;
+	}
+	.INSTA4 {
+		width: 100%;
+	}
+	
+	.slider__text {
+		width: 100%;
+		font-size: 1.863em;
+		text-align: center;
+		left: -12.5%;
+	}
+	.footer__copyright,
+	.footer__menu {
+		height: auto;
+		display: block;
+		width: 100%;
+	}
+	.menu {
+		padding: 0;
+		margin: 0;
+		font-size: 0.89em;
+		width: 100%;
+		text-align: center;
+	}
+	.copyright__top,
+	.copyright__bottom {
+		width: 100%;
+		text-align: center;
+		padding: 20px;
+		margin: 0;
+	}
+	.wrapp__instag,
+	.wrapp__categories {
+		display: inline-block;
+		width: 49.3%;
+		vertical-align: top;
+	}
+	.wrapp__categories {
+		margin-top: -10px;
+	}
+	.reload {
+		width: 30%;
+	}
+	.input__subscribe
+	{
+	    width: 50%;
+	}
+	.submit__subscribe
+	{
+	    width: 20%;
+
+	}
+
+}
+
+
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+	.header__bottom {
+  		width: 100%;
+  	}
+  	.header__social {
+		display: inline-block;
+		text-align: center;
+		width: 100%;
+	}
+	.header__search {
+		width: 50%;
+		display: block;
+		margin: 0 25%;
+		margin-top: 50px;
+		margin-bottom: 15px;
+	}
+	.link__wrapp {
+		width: 80%;
+		margin: 0 10%;
+		margin-top: 50px;
+		margin-bottom: 15px;
+		border: none;
+	}
+  	.social__list {
+  		width: 100%;
+  		padding-left: 0;
+  	}
+	.header_menu {
+		width: 100%;
+		border: 1px dashed grey;	
+	}
+	.header__menu-item {
+		width: 100%;
+		display: block;
+		padding: 10px 10px;
+		border: 0;
+		cursor: pointer;
+	}
+	nav ul {
+		display: none;
+	}
+	.header__menu-item:hover {
+		background-color: red;
+		border-radius: 0;
+	}
+	.header__logo {
+		font-size: 3.125em;
+	}
+	
+	.header__text {
+		font-size: 1.063em;
+	}
+	.menu-trigger { 
+		display: block;
+		width: 5%;
+		margin: 0 90% 0 5%;
+		font-size: 1.875em;
+		cursor: pointer;
+	}
+	.content__left,
+	.content__sidebar,
+	.left__box-one,
+	.left__box-two {
+		display: block;
+		width: 100%;
+	}
+	.content__sidebar {
+		margin-top: 50px;
+	}
+	.insta__first-column,
+	.insta__last-column {
+		display: block;
+		width: 100%;
+	}
+	.insta__one-column,
+	.insta__two-column,
+	.insta__three-column,
+	.insta__four-column  {
+		display: block;
+		width: 100%;
+	}
+
+	.INSTA1,
+	.INSTA3,
+	.INSTA2,
+	.INSTA4,
+	.INSTA6,
+	.INSTA7,
+	.INSTA5,
+	.INSTA8 {
+		display: block;
+		width: 100%;
+	}
+	.slider__text {
+		width: 100%;
+		font-size: 1.563em;
+		text-align: center;
+		left: -12.5%;
+	}
+	.footer__copyright,
+	.footer__menu {
+		height: auto;
+		display: block;
+		width: 100%;
+	}
+	.menu {
+		padding: 0;
+		margin: 0;
+		font-size: 0.89em;
+		width: 100%;
+		text-align: center;
+	}
+	.copyright__top,
+	.copyright__bottom {
+		width: 100%;
+		text-align: center;
+		padding: 20px;
+		margin: 0;
+	}
+	.input__subscribe
+	{
+	    width: 60%;
+	}
+	.submit__subscribe
+	{
+	    width: 30%;
+
+	}
+
+}

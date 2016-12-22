@@ -1,0 +1,571 @@
+.wrapper
+{
+    position: relative;
+
+    overflow: hidden;
+
+    min-height: 100%;
+}
+.empty
+{
+    height: 180px;
+}
+.slider
+{
+    position: relative;
+    width: 100%;
+    height: 480px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider__text
+{
+    font-size: 50px;
+
+    position: absolute;
+    bottom: 20px;
+    left: 30.5%;
+
+    text-align: center;
+
+    color: white;
+}
+.life__box
+{
+    position: absolute;
+    top: 300px;
+    left: 36%;
+    padding: 7px 13px;
+
+    background-color: red;
+}
+
+
+/* CONTENT*/
+
+.content
+{
+    width: 80%;
+    min-height: 500px;
+    margin: 0 auto;
+    //background: red;
+    padding-top: 50px;
+}
+.content__left
+{
+    display: inline-block;
+
+    width: 70%;
+
+    border-bottom: 2px dashed #d7d7d7;
+}
+.content__left .content__sidebar
+{
+    display: inline-block;
+}
+.rect
+{
+    position: relative;
+
+    display: block;
+
+    width: 90%;
+    margin: 0 auto;
+}
+.left__box-one
+{
+    display: inline-block;
+
+    width: 50%;
+    //background: blue;
+
+    text-align: center;
+    vertical-align: top;
+}
+.box__one
+{
+    width: 100%;
+    padding-bottom: 90px;
+}
+.share
+{
+    position: absolute;
+    z-index: 999;
+    bottom: 44%;
+    left: 12%;
+
+    display: block;
+}
+.comment
+{
+    position: absolute;
+    z-index: 999;
+    bottom: 42%;
+    left: 12%;
+
+    display: block;
+}
+.text__best
+{
+    font-size: 24px;
+    font-weight: bold;
+
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.text__fashion
+{
+    font-style: oblique;
+
+    width: 30%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 3px;
+
+    color: #ceb4b4;
+    border-bottom: 1px solid #ceb4b4;
+}
+.text__lorem
+{
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 20px;
+
+    color: #ceb4b4;
+}
+.text__date
+{
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+/*left__box-two*/
+.left__box-two
+{
+    display: inline-block;
+
+    width: 49%;
+
+    vertical-align: top;
+    //background: yellow;
+}
+
+.box__two
+{
+    width: 100%;
+    padding-bottom: 90px;
+
+    text-align: center;
+}
+.comment
+{
+    position: absolute;
+    z-index: 999;
+    bottom: 42%;
+    left: 12%;
+
+    display: block;
+}
+.text__best
+{
+    font-size: 24px;
+    font-weight: bold;
+
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+/*CONTENT SIDEBAR*/
+.content__sidebar
+{
+    display: inline-block;
+
+    width: 29%;
+
+    vertical-align: top;
+    //background: green;
+}
+.box__sidebar
+{
+    width: 100%;
+    padding-bottom: 50px;
+}
+.text__about
+{
+    width: 30%;
+    margin: 0 0 0 5%;
+    padding-top: 20px;
+    padding-bottom: 3px;
+
+    color: #ceb4b4;
+    border-bottom: 1px solid #ceb4b4;
+}
+.text__name
+{
+    font-size: 24px;
+    font-weight: bold;
+
+    width: 95%;
+    margin: 0 0 0 5%;
+    padding-top: 20px;
+}
+.text__loremed
+{
+    width: 95%;
+    margin: 0 0 0 5%;
+    padding-top: 20px;
+
+    color: #ceb4b4;
+}
+.follow
+{
+    width: 80%;
+    margin: 0 0 0 5%;
+    padding-top: 30px;
+}
+.follow__icons
+{
+    display: inline-block;
+}
+.follow__text
+{
+    display: inline-block;
+
+    padding: 0 8px 8px 0;
+
+    color: #ceb4b4;
+}
+
+
+
+.text__subscribe
+{
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    margin: 0 0 0 10%;
+    padding-top: 20px;
+}
+.input__subscribe
+{
+    width: 70%;
+    height: 40px;
+}
+.submit__subscribe
+{
+    width: 30%;
+    height: 40px;
+    margin-left: -5px;
+    padding: 0;
+    cursor: pointer;
+    color: #ffe5e5;
+    border: none;
+    background-color: #290f0f;
+}
+input[placeholder]
+{
+    padding-left: 20px;
+}
+
+/* сдвиг placeholder-а вправо при фокусе*/
+
+.input2::-webkit-input-placeholder
+{
+    transition: text-indent .8s ease;
+    text-indent: 0;
+}
+.input2::-moz-placeholder
+{
+    transition: text-indent .8s ease;
+    text-indent: 0;
+}
+.input2:-moz-placeholder
+{
+    transition: text-indent .8s ease;
+    text-indent: 0;
+}
+.input2:-ms-input-placeholder
+{
+    transition: text-indent .8s ease;
+    text-indent: 0;
+}
+.input2:focus::-webkit-input-placeholder
+{
+    transition: text-indent .8s ease;
+    text-indent: 500px;
+}
+.input2:focus::-moz-placeholder
+{
+    transition: text-indent .8s ease;
+    text-indent: 500px;
+}
+.input2:focus:-moz-placeholder
+{
+    transition: text-indent .8s ease;
+    text-indent: 500px;
+}
+.input2:focus:-ms-input-placeholder
+{
+    transition: text-indent .8s ease;
+    text-indent: 500px;
+}
+.hr
+{
+    padding-bottom: 10px;
+
+    border-bottom: 1px solid #ceb4b4;
+}
+.text__posts
+{
+    font-style: oblique;
+
+    width: 15%;
+    margin: 0 0 0 5%;
+    padding-top: 30px;
+    padding-bottom: 3px;
+
+    color: #ceb4b4;
+    border-bottom: 1px solid #ceb4b4;
+}
+.text__post
+{
+    font-style: oblique;
+
+    width: 17%;
+    margin: 0 0 0 5%;
+    padding-top: 30px;
+    padding-bottom: 3px;
+
+    color: #ceb4b4;
+    border-bottom: 1px solid #ceb4b4;
+}
+.font
+{
+    font-size: 15.96px;
+    line-height: 150%;
+}
+.left
+{
+    width: 95%;
+    margin: 0 0 0 5%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.insta__img1
+{
+    display: block;
+    float: left;
+
+    width: 45%;
+    margin: 0 0 0 5%;
+}
+.insta__img2
+{
+    display: block;
+    float: left;
+
+    width: 45%;
+    margin: 0 5% 0 0;
+}
+.clearfix
+{
+    display: table;
+    clear: both;
+
+    content: ' ';
+}
+.top
+{
+    padding-top: 30px;
+}
+.categories
+{
+    width: 90%;
+    margin: 0 5%;
+    padding-top: 20px;
+}
+.categories li
+{
+    display: block;
+
+    width: 100%;
+}
+.categories li a
+{
+    display: block;
+
+    width: 100%;
+    padding: 7px;
+
+    cursor: pointer;
+
+    color: black;
+    border-radius: 3px;
+}
+.categories li:nth-child(odd):hover
+{
+    background-color: #f7f7f7;
+}
+.categories li:nth-child(even):hover
+{
+    border: 2px dashed red;
+    background-color: white;
+}
+.categories li:nth-child(even)
+{
+    border: 2px dashed #eee;
+    background-color: #f7f7f7;
+}
+
+.blog__img,
+.text__tags
+{
+    width: 90%;
+    margin: 0 5%;
+}
+
+.slash
+{
+    font-size: 18px;
+
+    color: #d2d2d2;
+}
+.reload
+{
+    text-align: center;
+    width: 2.5%;
+    margin: 0 35%;
+    padding-top: 40px;
+    cursor: pointer;
+}
+.reload:hover {
+    color: red;
+}
+.reload__img
+{
+    padding: 6px;
+    border-radius: 50%;
+}
+.gorizontall__stick
+{
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+.center
+{
+    width: 100%;
+    margin: 0 auto;
+
+    text-align: center;
+}
+.shape
+{
+    display: block;
+
+    width: 30%;
+    margin: 0 auto;
+
+    background: black;
+}
+.ellipse
+{
+    display: block;
+    margin: 0 auto;
+    margin-top: -13px;
+}
+
+.wrapp__insta
+{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.insta__first-column,
+.insta__last-column
+{
+    display: inline-block;
+    width: 49.85%;
+}
+.insta__one-column,
+.insta__two-column
+{
+    display: inline-block;
+    vertical-align: top;
+}
+.insta__one-column
+{
+    width: 33.2%;
+}
+.insta__two-column
+{
+    width: 66.2%;
+}
+.INSTA1,
+.INSTA3
+{
+    display: block;
+    width: 99.6%;
+}
+.INSTA2
+{
+    width: 99.8%;
+}
+
+.insta__three-column,
+.insta__four-column
+{
+    display: inline-block;
+
+    margin: 0;
+    padding: 0;
+
+    vertical-align: top;
+}
+.insta__three-column
+{
+    width: 66.3%;
+}
+.insta__four-column
+{
+    width: 33.1%;
+}
+.INSTA4
+{
+    display: block;
+    width: 99.9%;
+}
+.INSTA6,
+.INSTA7
+{
+    width: 49.55%;
+}
+.INSTA5,
+.INSTA8
+{
+    display: block;
+    width: 99.8%;
+}
+.INSTA1,
+.INSTA2,
+.INSTA3,
+.INSTA4,
+.INSTA5,
+.INSTA6,
+.INSTA7,
+.INSTA8
+{
+    height: auto;
+}
+.INSTA5
+{
+    height: auto;
+    
+}
+.menu-trigger {
+    display: none;
+} 

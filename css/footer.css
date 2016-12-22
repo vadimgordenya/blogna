@@ -1,0 +1,44 @@
+.footer {
+	height: 180px;
+	width: 100%;
+	margin-top: -180px;
+	position: relative;
+}
+
+.footer__copyright {
+	display: inline;
+	width: 50%;
+	float: left;
+	color: #909090;
+}
+.footer__menu {
+	width: 50%;
+	height: 100%;
+	float: left;
+	background-color: #ededeb;
+}
+.menu {
+	width: 60%;
+	margin: 75px 0 0 10%;
+}
+.menu li {
+	display: inline-block;
+	
+}
+.menu li a {
+	color: #909090;
+	padding: 10px;
+}
+.menu li a:hover {
+	color: #909090;
+	border-radius: 8px;
+	border: 1px solid red;
+}
+.copyright__top {
+	width: 30%;
+	margin: 50px 10% 30px 70%;
+}
+.copyright__bottom {
+	width: 50%;
+	margin: 20px 10% 30px 40%;
+}
